@@ -16,7 +16,7 @@ import axios from "axios";
 import ScrollableChat from "./ScrollableChat";
 import io from "socket.io-client"
 import GroupProfileModel from "./GroupProfileModel";
-const ENDPOINT="http://localhost:4000";
+const ENDPOINT = "https://chathive-kxzo.onrender.com";
 var socket,selectedChatCompare;
 
 const IndividualChat = ({ fetchAgain, setFetchAgain }) => {

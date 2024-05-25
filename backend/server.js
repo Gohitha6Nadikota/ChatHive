@@ -37,12 +37,12 @@ app.use(notFound);
 app.use(errorHandler);
 const PORT=process.env.PORT
 const server=app.listen(PORT,console.log(`Server started at ${PORT}`));
-const io=require('socket.io')(server,{
-    pingTimeout:60000,
-    cors:{
-        origin:'http://localhost:4000'
-    }
-})
+const io = require("socket.io")(server, {
+  pingTimeout: 60000,
+  cors: {
+    origin: "https://chathive-kxzo.onrender.com",
+  },
+});
 io.on("connection",(socket)=>{
     console.log("Connected to Socket.io")
 
