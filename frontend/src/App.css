@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+.App
+{
+  min-height: 100vh;
+  display: flex;
+  background-image: url("https://t4.ftcdn.net/jpg/01/70/93/27/360_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg");
+  background-position: center;
+  background-size: cover;
+  color:black;
+}
+
+::-webkit-scrollbar{
+  width:0px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(136,136,1360,0.281);
+}
+::-webkit-scrollbar-thumb:hover{
+  background:#555;
+}
